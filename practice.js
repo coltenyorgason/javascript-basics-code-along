@@ -5,7 +5,8 @@
 // After the first variable, make a variable named farewell with a data type of string that says 'Goodbye' (with single quotes)
 
 // Code here
-
+ var greeting="Hi";
+ var farewell="Goodbye";
 
 
 //////////////////PROBLEM 2////////////////////
@@ -15,6 +16,10 @@
 // Concatenate hello and userName together and store the result in a variable called salutation
 
 //Code here
+var hello="Hello";
+var userName="Colten";
+var salutation= hello + userName;
+
 
 
 
@@ -23,6 +28,7 @@
 //Create a variable called seven that has a number data type with the value of 7
 
 //Code here
+var seven = 7
 
 
 
@@ -32,6 +38,7 @@
 // This datatype should be a number
 
 //Code here
+var money = 1000000000
 
 
 
@@ -40,6 +47,7 @@
 // Make a variable called awesome and give it a value of the boolean data type true
 
 //Code here
+var awesome=true
 
 
 
@@ -54,6 +62,8 @@ let myCar = "Jeep";
 
 
 //Code here
+myCar=null
+
 
 
 
@@ -63,6 +73,27 @@ let myCar = "Jeep";
 // Each item should be an object, and each object should have 2 properties: name (string) and age (number)
 
 //Code here
+var users = [ 
+  {
+    name: "Colten",
+    age: 7
+    
+  },
+  {
+    name: "Ernie",
+    age: 10
+  },
+  {
+    name: "chrisussy",
+    age: 15
+
+  },
+  {
+    name: "allie",
+   age: 1
+  }
+
+]
 
 
 
@@ -74,6 +105,25 @@ let myCar = "Jeep";
 // Each hobbies property will have a corresponding value which will be an object
 
 //Code here
+var family = 
+{
+  chris: {
+    hobbies:{
+
+    }
+  },
+  colten: {
+    hobbies: {
+
+    }
+  },
+  ernie: {
+    hobbies:{
+
+    }
+  }
+
+}
 
 
 
@@ -83,7 +133,11 @@ let myCar = "Jeep";
 // Each item should be an array with 2 items (numbers) in each array
 
 //Code here
-
+var gameScores = [
+  [2,23],
+  [3,32],
+  [3,3]
+]
 
 
 //////////////////PROBLEM 10////////////////////
@@ -92,7 +146,18 @@ let myCar = "Jeep";
 // Each object should have 3 properties: name (string), gender (string), height (number) in each array
 
 //Code here
-
+var people = [
+  {name: "chris",
+  gender:"non-binary",
+height:7},
+{
+  name: "ernie",
+  gender: "apache helicopter",
+  height:6},
+  {name:"colten",
+  gender: "sex panther",
+  height:5}
+  ]
 
 
 //////////////////PROBLEM 11////////////////////
@@ -101,7 +166,11 @@ let myCar = "Jeep";
 // This object should have 3 properties: name (string), state (string), favoriteCountrySong (string)
 
 //Code here
-
+var cowboy ={
+  name:"doug",
+  state:"alabama",
+  favoriteCountrySong:"honkydonk"
+}
 
 
 //////////////////PROBLEM 12////////////////////
